@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
-    <title>Contoh JS Terpisah</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contoh JS + CSS Terpisah</title>
+
+    <!-- Hubungkan ke file CSS -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Elemen yang akan diubah -->
-    <h2 id="judul">Halo Dunia!</h2>
+    <div class="container">
+      <h2 id="judul">Halo Dunia!</h2>
+      <button onclick="ubahTeks()">Klik aku</button>
+    </div>
 
-    <!-- Tombol untuk memicu fungsi JavaScript -->
-    <button onclick="ubahTeks()">Klik aku</button>
-
-    <!-- Menghubungkan file JavaScript eksternal -->
+    <!-- Hubungkan ke file JavaScript -->
     <script src="script.js"></script>
   </body>
 </html>
