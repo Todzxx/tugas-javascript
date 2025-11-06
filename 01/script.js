@@ -1,6 +1,9 @@
-// Fungsi yang dipanggil saat tombol diklik
+// Fungsi untuk mengubah teks saat tombol diklik
 function ubahTeks() {
-  // Mengambil elemen HTML dengan id 'judul'
-  // lalu mengganti teksnya
-  document.getElementById("judul").innerText = "Teksnya berubah!";
+  const judul = document.getElementById("judul");
+  judul.innerText = "Teksnya berubah! 😎";
+
+  // Tambahkan efek animasi saat teks berubah
+  judul.style.transition = "0.5s";
+  judul.style.color = "#00adb5";
 }
