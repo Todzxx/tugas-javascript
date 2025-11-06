@@ -1,0 +1,49 @@
+/* ==================== TEMA TERMINAL ==================== */
+body {
+  background-color: #0a0a0a; /* warna hitam pekat */
+  color: #00ff6a; /* hijau neon khas terminal */
+  font-family: "Courier New", monospace;
+  text-align: center;
+  padding: 50px;
+}
+
+/* Judul utama dengan efek cahaya */
+h1 {
+  text-shadow: 0 0 15px #00ff6a;
+  margin-bottom: 40px;
+}
+
+/* Tombol bergaya hacker */
+button {
+  background: transparent;
+  border: 2px solid #00ff6a;
+  color: #00ff6a;
+  font-family: "Courier New", monospace;
+  padding: 10px 25px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+  box-shadow: 0 0 10px #00ff6a;
+}
+
+/* Efek saat hover tombol */
+button:hover {
+  background-color: #00ff6a;
+  color: #0a0a0a;
+  box-shadow: 0 0 20px #00ff6a, 0 0 40px #00ff6a;
+}
+
+/* Garis pemisah antar bagian */
+hr {
+  margin: 40px 0;
+  border: none;
+  border-top: 1px solid #00ff6a33;
+}
+
+/* Output teks dari innerHTML */
+#output {
+  color: #00ffee;
+  text-shadow: 0 0 10px #00ffee;
+  margin-top: 10px;
+}
