@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4 Cara Menampilkan Output - JavaScript</title>
+
+    <!-- Hubungkan ke file CSS eksternal -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Judul utama -->
+    <h1>🧠 4 Cara Menampilkan Output di JavaScript</h1>
+
+    <!-- ========== 1. console.log() ========== -->
+    <h2>1️⃣ console.log()</h2>
+    <button onclick="outputConsole()">Tampilkan di Console</button>
+    <p>
+      👉 Buka <b>Developer Tools (F12 → Console)</b> untuk melihat hasilnya.
+    </p>
+
+    <hr />
+
+    <!-- ========== 2. document.write() ========== -->
+    <h2>2️⃣ document.write()</h2>
+    <button onclick="outputWrite()">Gunakan document.write()</button>
+    <p>⚠️ Hati-hati! Ini akan mengganti seluruh isi halaman.</p>
+
+    <hr />
+
+    <!-- ========== 3. alert() ========== -->
+    <h2>3️⃣ alert()</h2>
+    <button onclick="outputAlert()">Tampilkan Alert</button>
+
+    <hr />
+
+    <!-- ========== 4. innerHTML ========== -->
+    <h2>4️⃣ innerHTML</h2>
+    <button onclick="outputInner()">Tampilkan di Halaman</button>
+    <p id="output"></p>
+
+    <!-- Hubungkan ke file JavaScript eksternal -->
+    <script src="script.js"></script>
+  </body>
+</html>
