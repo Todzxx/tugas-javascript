@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4 Cara Menulis JavaScript - Hacker Style</title>
+
+    <style>
+      /* ========== TEMA TERMINAL ========== */
+      body {
+        background-color: #0a0a0a;
+        color: #00ff6a;
+        font-family: "Courier New", monospace;
+        text-align: center;
+        padding: 40px;
+      }
+
+      h1,
+      h2 {
+        text-shadow: 0 0 10px #00ff6a, 0 0 20px #00ff6a;
+      }
+
+      h1 {
+        margin-bottom: 30px;
+      }
+
+      button {
+        background-color: transparent;
+        border: 2px solid #00ff6a;
+        color: #00ff6a;
+        font-family: "Courier New", monospace;
+        padding: 10px 25px;
+        margin: 10px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.2s;
+        box-shadow: 0 0 8px #00ff6a;
+      }
+
+      button:hover {
+        background-color: #00ff6a;
+        color: #0a0a0a;
+        text-shadow: none;
+        box-shadow: 0 0 20px #00ff6a, 0 0 40px #00ff6a;
+      }
+
+      hr {
+        margin: 40px 0;
+        border: none;
+        border-top: 1px solid #00ff6a44;
+      }
+
+      /* Animasi typing untuk efek terminal */
+      .typing {
+        overflow: hidden;
+        border-right: 2px solid #00ff6a;
+        white-space: nowrap;
+        margin: 0 auto;
+        letter-spacing: 2px;
+        animation: typing 2.5s steps(30, end),
+          blink-caret 0.7s step-end infinite;
+      }
+
+      @keyframes typing {
+        from {
+          width: 0;
+        }
+        to {
+          width: 100%;
+        }
+      }
+
+      @keyframes blink-caret {
+        from,
+        to {
+          border-color: transparent;
+        }
+        50% {
+          border-color: #00ff6a;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 class="typing">🧠 4 Cara Menulis JavaScript di HTML</h1>
+
+    <!-- 1️⃣ Langsung di tag <script> -->
+    <h2 id="judul1">1️⃣ Langsung di Tag &lt;script&gt;</h2>
+    <script>
+      document.getElementById("judul1").innerText =
+        "1️⃣ Halo dari <script> Langsung! 💻";
+    </script>
+
+    <hr />
+
+    <!-- 2️⃣ Dari File Eksternal -->
+    <h2 id="judul2">2️⃣ Dari File Eksternal</h2>
+    <button onclick="ubahDariEksternal()">Klik Aku (Eksternal)</button>
+
+    <hr />
+
+    <!-- 3️⃣ Inline JavaScript -->
+    <h2>3️⃣ Inline JavaScript</h2>
+    <button onclick="alert('💀 Halo dari Inline JavaScript!')">
+      Klik Aku (Inline)
+    </button>
+
+    <hr />
+
+    <!-- 4️⃣ Event Listener -->
+    <h2 id="judul4">4️⃣ Event Listener</h2>
+    <button id="btn4">Klik Aku (Event Listener)</button>
+
+    <script>
+      // Event Listener (cara modern)
+      const tombol4 = document.getElementById("btn4");
+      const judul4 = document.getElementById("judul4");
+
+      tombol4.addEventListener("click", () => {
+        judul4.innerText = "4️⃣ Halo dari Event Listener! 🚀";
+        judul4.style.color = "#00ffea";
+        judul4.style.textShadow = "0 0 20px #00ffee";
+      });
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
