@@ -5,24 +5,25 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 20px;
-    background-color: #e8f5e9; /* Light green background */
+    background: linear-gradient(to right, #84fab0, #8fd3f4); /* Light green to light blue gradient */
     color: #333;
 }
 
 .container {
     max-width: 900px;
     margin: 20px auto;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.95);
     padding: 30px 40px;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 h1 {
-    color: #2e7d32; /* Dark green */
+    color: #28a745; /* Green */
     text-align: center;
     margin-bottom: 25px;
-    font-weight: 600;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
 }
 
 .object-section {
@@ -37,18 +38,23 @@ h1 {
 }
 
 .object-section h2 {
-    color: #388e3c; /* Medium green */
+    color: #218838; /* Darker Green */
     margin-top: 0;
     margin-bottom: 10px;
+    background-color: #d4edda; /* Light Green */
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
 }
 
 .example {
-    background-color: #263238; /* Dark blue-grey for code */
-    color: #e0f2f7; /* Light blue-grey for code text */
+    background-color: #343a40; /* Dark Grey */
+    color: #f8f9fa; /* Light Grey */
     padding: 15px;
     border-radius: 5px;
     font-family: 'Roboto Mono', monospace;
     white-space: pre-wrap;
     font-size: 0.9em;
     margin-top: 10px;
+    border: 1px solid #6c757d;
 }
