@@ -1,4 +1,81 @@
-/* Styling awal untuk AJAX */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&family=Inconsolata&display=swap');
+
 body {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f2f5; /* Light grey */
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #007bff; /* Bright Blue */
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.ajax-section {
+    margin-bottom: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.ajax-section:first-of-type {
+    border-top: none;
+    padding-top: 0;
+}
+
+.ajax-section h2 {
+    color: #0056b3; /* Darker Blue */
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.example {
+    background-color: #212529; /* Dark background for code/output */
+    color: #f8f9fa; /* Light text for code/output */
+    padding: 15px;
+    border-radius: 5px;
+    font-family: 'Inconsolata', monospace;
+    white-space: pre-wrap;
+    font-size: 0.9em;
+    margin-top: 10px;
+    border: 1px solid #495057;
+}
+
+button {
+    background-color: #28a745; /* Green */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
 }
