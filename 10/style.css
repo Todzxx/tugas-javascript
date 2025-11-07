@@ -1,4 +1,52 @@
-/* Styling awal untuk fungsi */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Inconsolata&display=swap');
+
 body {
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+    margin: 0;
+    padding: 20px;
+    background-color: #fdfbfb;
+    color: #4b4b4b;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border: 1px solid #f0f0f0;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.function-section {
+    margin-bottom: 35px;
+    padding: 20px;
+    border-left: 4px solid #1abc9c; /* Turquoise */
+    background-color: #f8f9fa;
+    border-radius: 0 5px 5px 0;
+}
+
+.function-section h2 {
+    color: #16a085; /* Darker Turquoise */
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.example {
+    background-color: #2d2d2d;
+    color: #f1f1f1;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: 'Inconsolata', monospace;
+    white-space: pre-wrap;
+    font-size: 1em;
+    margin-top: 15px;
 }
