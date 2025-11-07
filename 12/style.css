@@ -1,4 +1,88 @@
-/* Styling awal untuk DOM API */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Space+Mono&display=swap');
+
 body {
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f4f8; /* Light blue-grey */
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #2c3e50; /* Dark blue-grey */
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.dom-section {
+    margin-bottom: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e6ed;
+}
+
+.dom-section:first-of-type {
+    border-top: none;
+    padding-top: 0;
+}
+
+.dom-section h2 {
+    color: #34495e; /* Medium blue-grey */
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.example {
+    background-color: #ecf0f1; /* Lighter blue-grey */
+    padding: 20px;
+    border-radius: 8px;
+    font-family: 'Space Mono', monospace;
+    white-space: pre-wrap;
+    font-size: 0.9em;
+    margin-top: 15px;
+    border: 1px solid #bdc3c7;
+}
+
+button {
+    background-color: #3498db; /* Blue */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 5px;
 }
