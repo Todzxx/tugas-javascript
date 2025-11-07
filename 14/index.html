@@ -3,10 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AJAX Javascript</title>
+    <title>Apa itu AJAX? dan Bagaimana Cara Menggunakannya?</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Konten AJAX akan ditambahkan -->
+    <div class="container">
+        <h1>Apa itu AJAX? dan Bagaimana Cara Menggunakannya?</h1>
+        <p>AJAX (Asynchronous JavaScript and XML) adalah teknik pengembangan web untuk membuat aplikasi web asinkron. Dengan AJAX, aplikasi web dapat mengirim dan menerima data dari server secara asinkron (di latar belakang) tanpa mengganggu tampilan dan perilaku halaman yang ada.</p>
+
+        <div class="ajax-section">
+            <h2>Manfaat AJAX</h2>
+            <ul>
+                <li>Memperbarui halaman web tanpa memuat ulang seluruh halaman.</li>
+                <li>Membuat aplikasi web lebih cepat dan responsif.</li>
+                <li>Mengirim data ke server di latar belakang.</li>
+            </ul>
+        </div>
+
+        <div class="ajax-section">
+            <h2>1. Menggunakan <code>XMLHttpRequest</code> (XHR)</h2>
+            <p>Metode tradisional untuk membuat permintaan AJAX.</p>
+            <button id="loadDataXHR">Muat Data (XHR)</button>
+            <div class="example" id="xhr-output"></div>
+        </div>
+
+        <div class="ajax-section">
+            <h2>2. Menggunakan <code>Fetch API</code></h2>
+            <p>Antarmuka modern dan lebih kuat untuk membuat permintaan jaringan, mengembalikan Promise.</p>
+            <button id="loadDataFetch">Muat Data (Fetch)</button>
+            <div class="example" id="fetch-output"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
