@@ -5,24 +5,25 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 20px;
-    background-color: #f4f7f6;
+    background: linear-gradient(to right, #a8e063, #56ab2f); /* Green gradient */
     color: #333;
 }
 
 .container {
     max-width: 900px;
     margin: 20px auto;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.95);
     padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
 }
 
 h1 {
-    color: #2c3e50;
+    color: #2e7d32; /* Dark Green */
     text-align: center;
     margin-bottom: 25px;
     font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
 }
 
 p {
@@ -32,21 +33,22 @@ p {
 .operator-section {
     margin-bottom: 30px;
     padding: 15px;
-    border: 1px solid #e0e0e0;
-    border-radius: 5px;
-    background-color: #fdfdfd;
+    border: 1px solid #c8e6c9; /* Light Green border */
+    border-radius: 8px;
+    background-color: #e8f5e9; /* Lighter Green background */
 }
 
 .operator-section h2 {
-    color: #34495e;
-    border-bottom: 2px solid #eceff1;
+    color: #388e3c; /* Medium Green */
+    border-bottom: 2px solid #a5d6a7;
     padding-bottom: 8px;
     margin-top: 0;
     margin-bottom: 15px;
 }
 
 pre {
-    background-color: #eef2f5;
+    background-color: #263238; /* Dark Blue-Grey */
+    color: #e0f2f7; /* Light Blue-Grey */
     padding: 15px;
     border-radius: 5px;
     overflow-x: auto;
@@ -54,6 +56,6 @@ pre {
 
 code {
     font-family: 'Roboto Mono', monospace;
-    color: #c0392b;
+    color: #ffab40; /* Orange */
     font-size: 0.95em;
 }
