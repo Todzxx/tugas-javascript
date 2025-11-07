@@ -3,10 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event Javascript</title>
+    <title>Memahami Event di Javascript</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Konten Event akan ditambahkan -->
+    <div class="container">
+        <h1>Memahami Event di Javascript</h1>
+        <p>Event adalah tindakan atau kejadian yang terjadi pada sistem yang sedang Anda program, yang dapat ditanggapi oleh program Anda. Di JavaScript, event seringkali terjadi di browser, seperti klik mouse, penekanan tombol keyboard, atau pemuatan halaman.</p>
+
+        <div class="event-section">
+            <h2>1. Event Listener</h2>
+            <p>Mekanisme untuk "mendengarkan" event yang terjadi pada elemen HTML.</p>
+            <button id="clickMeBtn">Klik Saya!</button>
+            <p id="clickOutput">Belum ada klik.</p>
+        </div>
+
+        <div class="event-section">
+            <h2>2. Event Mouse (<code>mouseover</code>, <code>mouseout</code>)</h2>
+            <p>Event yang terkait dengan interaksi mouse.</p>
+            <div id="hoverBox">Arahkan Mouse ke Sini</div>
+            <p id="hoverOutput">Status hover: Tidak ada.</p>
+        </div>
+
+        <div class="event-section">
+            <h2>3. Event Keyboard (<code>keydown</code>)</h2>
+            <p>Event yang terjadi saat tombol keyboard ditekan.</p>
+            <input type="text" id="keyInput" placeholder="Tekan tombol di sini">
+            <p id="keyOutput">Tombol terakhir ditekan: </p>
+        </div>
+
+        <div class="event-section">
+            <h2>4. Event Form (<code>submit</code>)</h2>
+            <p>Event yang terjadi saat formulir disubmit.</p>
+            <form id="myForm">
+                <input type="text" id="nameInput" placeholder="Nama Anda">
+                <button type="submit">Submit</button>
+            </form>
+            <p id="formOutput">Form belum disubmit.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
