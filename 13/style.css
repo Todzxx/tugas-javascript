@@ -1,4 +1,60 @@
-/* Styling awal untuk Objek Math */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&family=Fira+Code&display=swap');
+
 body {
-    font-family: sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f7fa; /* Light grey background */
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #2c3e50; /* Dark blue-grey */
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.math-section {
+    margin-bottom: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e6ed;
+}
+
+.math-section:first-of-type {
+    border-top: none;
+    padding-top: 0;
+}
+
+.math-section h2 {
+    color: #34495e; /* Medium blue-grey */
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.math-section h3 {
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.example {
+    background-color: #2d3436; /* Dark grey for code */
+    color: #f8f9fa; /* Light text for code */
+    padding: 15px;
+    border-radius: 5px;
+    font-family: 'Fira Code', monospace;
+    white-space: pre-wrap;
+    font-size: 0.9em;
+    margin-top: 10px;
 }
