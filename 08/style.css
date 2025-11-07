@@ -5,46 +5,52 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 20px;
-    background-color: #eef2f3; /* Light grey-blue */
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Warm gradient */
     color: #3a3a3a;
 }
 
 .container {
     max-width: 900px;
     margin: 20px auto;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.95);
     padding: 25px 40px;
-    border-radius: 10px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
 h1 {
-    color: #1d3557; /* Dark Blue */
+    color: #d62828; /* Reddish */
     text-align: center;
-    margin-bottom: 20px;
-    font-weight: 600;
+    margin-bottom: 25px;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
 }
 
 .loop-section {
     margin-bottom: 30px;
     padding: 20px;
-    border-left: 4px solid #457b9d; /* Steel Blue */
-    background-color: #f1faee; /* Light Green-Blue */
-    border-radius: 0 8px 8px 0;
+    border-left: 5px solid #0077b6; /* Strong Blue */
+    background-color: #e0f7fa; /* Light Cyan */
+    border-radius: 0 10px 10px 0;
 }
 
 .loop-section h2 {
-    color: #e63946; /* Red */
+    color: #005f73; /* Dark Teal */
     margin-top: 0;
     margin-bottom: 10px;
+    background-color: #cce7e8; /* Lighter Teal */
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
 }
 
 .example {
-    background-color: #272822; /* Monokai background */
-    color: #f8f8f2; /* Monokai text */
+    background-color: #2d3436; /* Dark Grey */
+    color: #fdfdfd; /* White */
     padding: 15px;
     border-radius: 5px;
     font-family: 'Fira Code', monospace;
     white-space: pre-wrap;
     font-size: 0.9em;
+    border: 1px solid #636e72; /* Medium Grey */
 }
