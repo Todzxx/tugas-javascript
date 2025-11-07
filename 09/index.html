@@ -3,10 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Struktur Data Array Javascript</title>
+    <title>Memahami Struktur Data Array pada Javascript</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Konten array akan ditambahkan -->
+    <div class="container">
+        <h1>Memahami Struktur Data Array pada Javascript</h1>
+        <p>Array adalah objek global yang digunakan untuk menyimpan daftar nilai. Nilai-nilai ini bisa berupa tipe data apa pun, dan diakses menggunakan indeks numerik.</p>
+
+        <div class="array-section">
+            <h2>Membuat Array</h2>
+            <p>Cara paling umum untuk membuat array adalah dengan menggunakan literal array <code>[]</code>.</p>
+            <div class="example" id="create-array-example"></div>
+        </div>
+
+        <div class="array-section">
+            <h2>Mengakses Elemen Array</h2>
+            <p>Elemen diakses menggunakan indeks berbasis nol (indeks pertama adalah 0).</p>
+            <div class="example" id="access-array-example"></div>
+        </div>
+
+        <div class="array-section">
+            <h2>Properti <code>.length</code></h2>
+            <p>Properti ini mengembalikan jumlah elemen dalam array.</p>
+            <div class="example" id="length-prop-example"></div>
+        </div>
+
+        <div class="array-section">
+            <h2>Metode Array Umum</h2>
+            <p>Array memiliki banyak metode bawaan untuk manipulasi data.</p>
+            <h3>Metode <code>.push()</code> & <code>.pop()</code></h3>
+            <p>Menambah elemen ke akhir array dan menghapus elemen dari akhir array.</p>
+            <div class="example" id="push-pop-example"></div>
+            <h3>Metode <code>.map()</code></h3>
+            <p>Membuat array baru dengan hasil dari memanggil fungsi pada setiap elemen array.</p>
+            <div class="example" id="map-example"></div>
+            <h3>Metode <code>.filter()</code></h3>
+            <p>Membuat array baru dengan semua elemen yang lulus tes (fungsi callback).</p>
+            <div class="example" id="filter-example"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
