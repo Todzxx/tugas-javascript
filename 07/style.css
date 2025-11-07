@@ -1,4 +1,53 @@
-/* Styling awal untuk percabangan */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Source+Code+Pro&display=swap');
+
 body {
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.7;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.branch-section {
+    margin-bottom: 35px;
+    padding-top: 20px;
+    border-top: 1px solid #dee2e6;
+}
+
+.branch-section:first-of-type {
+    border-top: none;
+    padding-top: 0;
+}
+
+.branch-section h2 {
+    color: #007bff;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.example {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: 'Source Code Pro', monospace;
+    white-space: pre-wrap; /* Ensures long lines wrap */
+    font-size: 0.9em;
+    border: 1px solid #ced4da;
 }
