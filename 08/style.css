@@ -1,4 +1,50 @@
-/* Styling awal untuk perulangan */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Fira+Code&display=swap');
+
 body {
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #eef2f3; /* Light grey-blue */
+    color: #3a3a3a;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 25px 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
+}
+
+h1 {
+    color: #1d3557; /* Dark Blue */
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.loop-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-left: 4px solid #457b9d; /* Steel Blue */
+    background-color: #f1faee; /* Light Green-Blue */
+    border-radius: 0 8px 8px 0;
+}
+
+.loop-section h2 {
+    color: #e63946; /* Red */
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.example {
+    background-color: #272822; /* Monokai background */
+    color: #f8f8f2; /* Monokai text */
+    padding: 15px;
+    border-radius: 5px;
+    font-family: 'Fira Code', monospace;
+    white-space: pre-wrap;
+    font-size: 0.9em;
 }
