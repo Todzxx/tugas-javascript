@@ -5,48 +5,54 @@ body {
     line-height: 1.7;
     margin: 0;
     padding: 20px;
-    background-color: #fdfbfb;
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb); /* Light blue gradient */
     color: #4b4b4b;
 }
 
 .container {
     max-width: 900px;
     margin: 20px auto;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.95);
     padding: 30px 40px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
 }
 
 h1 {
-    color: #2c3e50;
+    color: #007bff; /* Bright Blue */
     text-align: center;
     margin-bottom: 25px;
-    font-weight: 600;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
 }
 
 .function-section {
     margin-bottom: 35px;
     padding: 20px;
-    border-left: 4px solid #1abc9c; /* Turquoise */
-    background-color: #f8f9fa;
+    border-left: 4px solid #28a745; /* Green */
+    background-color: #e6ffe6; /* Light Green */
     border-radius: 0 5px 5px 0;
 }
 
 .function-section h2 {
-    color: #16a085; /* Darker Turquoise */
+    color: #218838; /* Darker Green */
     margin-top: 0;
     margin-bottom: 10px;
+    background-color: #d4edda; /* Medium Green */
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
 }
 
 .example {
-    background-color: #2d2d2d;
-    color: #f1f1f1;
+    background-color: #343a40; /* Dark Grey */
+    color: #f8f9fa; /* Light Grey */
     padding: 15px;
     border-radius: 5px;
     font-family: 'Inconsolata', monospace;
     white-space: pre-wrap;
     font-size: 1em;
     margin-top: 15px;
+    border: 1px solid #6c757d;
 }
