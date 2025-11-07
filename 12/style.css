@@ -5,24 +5,25 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 20px;
-    background-color: #f0f4f8; /* Light blue-grey */
+    background: linear-gradient(to right, #a18cd1, #fbc2eb); /* Purple to Pink gradient */
     color: #333;
 }
 
 .container {
     max-width: 900px;
     margin: 20px auto;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.95);
     padding: 30px 40px;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 h1 {
-    color: #2c3e50; /* Dark blue-grey */
+    color: #6a0572; /* Dark Purple */
     text-align: center;
     margin-bottom: 25px;
-    font-weight: 600;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
 }
 
 .dom-section {
@@ -37,24 +38,29 @@ h1 {
 }
 
 .dom-section h2 {
-    color: #34495e; /* Medium blue-grey */
+    color: #9b59b6; /* Medium Purple */
     margin-top: 0;
     margin-bottom: 10px;
+    background-color: #f3e5f5; /* Light Purple */
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
 }
 
 .example {
-    background-color: #ecf0f1; /* Lighter blue-grey */
+    background-color: #34495e; /* Dark Blue-Grey */
+    color: #ecf0f1; /* Light Blue-Grey */
     padding: 20px;
     border-radius: 8px;
     font-family: 'Space Mono', monospace;
     white-space: pre-wrap;
     font-size: 0.9em;
     margin-top: 15px;
-    border: 1px solid #bdc3c7;
+    border: 1px solid #7f8c8d;
 }
 
 button {
-    background-color: #3498db; /* Blue */
+    background-color: #8e44ad; /* Purple */
     color: white;
     border: none;
     padding: 10px 15px;
@@ -66,7 +72,7 @@ button {
 }
 
 button:hover {
-    background-color: #2980b9;
+    background-color: #9b59b6;
 }
 
 img {
