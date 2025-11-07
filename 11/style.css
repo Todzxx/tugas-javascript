@@ -1,4 +1,54 @@
-/* Styling awal untuk objek */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto+Mono&display=swap');
+
 body {
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #e8f5e9; /* Light green background */
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #2e7d32; /* Dark green */
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.object-section {
+    margin-bottom: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #c8e6c9;
+}
+
+.object-section:first-of-type {
+    border-top: none;
+    padding-top: 0;
+}
+
+.object-section h2 {
+    color: #388e3c; /* Medium green */
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.example {
+    background-color: #263238; /* Dark blue-grey for code */
+    color: #e0f2f7; /* Light blue-grey for code text */
+    padding: 15px;
+    border-radius: 5px;
+    font-family: 'Roboto Mono', monospace;
+    white-space: pre-wrap;
+    font-size: 0.9em;
+    margin-top: 10px;
 }
