@@ -5,24 +5,25 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 20px;
-    background-color: #f5f7fa; /* Light grey background */
+    background: linear-gradient(to right, #ffecd2, #fcb69f); /* Peach to Coral gradient */
     color: #333;
 }
 
 .container {
     max-width: 900px;
     margin: 20px auto;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.95);
     padding: 30px 40px;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 h1 {
-    color: #2c3e50; /* Dark blue-grey */
+    color: #d62828; /* Reddish */
     text-align: center;
     margin-bottom: 25px;
-    font-weight: 600;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
 }
 
 .math-section {
@@ -37,24 +38,29 @@ h1 {
 }
 
 .math-section h2 {
-    color: #34495e; /* Medium blue-grey */
+    color: #e76f51; /* Coral */
     margin-top: 0;
     margin-bottom: 10px;
+    background-color: #ffe0b2; /* Light Orange */
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
 }
 
 .math-section h3 {
-    color: #555;
+    color: #f4a261; /* Orange */
     margin-top: 20px;
     margin-bottom: 5px;
 }
 
 .example {
-    background-color: #2d3436; /* Dark grey for code */
-    color: #f8f9fa; /* Light text for code */
+    background-color: #2a2a2a; /* Dark Grey */
+    color: #f8f8f2; /* Light text */
     padding: 15px;
     border-radius: 5px;
     font-family: 'Fira Code', monospace;
     white-space: pre-wrap;
     font-size: 0.9em;
     margin-top: 10px;
+    border: 1px solid #555;
 }
