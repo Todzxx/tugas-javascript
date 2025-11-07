@@ -3,10 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOM API Javascript</title>
+    <title>Apa itu DOM API? dan Bagaimana Cara Menggunakannya?</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Konten DOM API akan ditambahkan -->
+    <div class="container">
+        <h1>Apa itu DOM API? dan Bagaimana Cara Menggunakannya?</h1>
+        <p>DOM (Document Object Model) adalah antarmuka pemrograman untuk dokumen HTML dan XML. Ini merepresentasikan halaman sehingga program dapat mengubah struktur, gaya, dan konten dokumen.</p>
+
+        <div class="dom-section">
+            <h2>1. Memilih Elemen (Selecting Elements)</h2>
+            <p>Menggunakan metode seperti <code>getElementById</code>, <code>querySelector</code>, <code>querySelectorAll</code>.</p>
+            <div class="example" id="select-example">
+                <p id="myParagraph">Ini adalah paragraf.</p>
+                <button id="changeTextBtn">Ubah Teks</button>
+            </div>
+        </div>
+
+        <div class="dom-section">
+            <h2>2. Memanipulasi Konten (Manipulating Content)</h2>
+            <p>Mengubah teks, HTML, atau atribut elemen.</p>
+            <div class="example" id="manipulate-example">
+                <p id="manipulatedParagraph">Teks asli.</p>
+                <img id="myImage" src="https://via.placeholder.com/150/0000FF/FFFFFF?text=Gambar+Asli" alt="Gambar Asli">
+                <button id="changeImageBtn">Ubah Gambar</button>
+            </div>
+        </div>
+
+        <div class="dom-section">
+            <h2>3. Menangani Event (Handling Events)</h2>
+            <p>Menanggapi interaksi pengguna seperti klik, input, dll.</p>
+            <div class="example" id="event-example">
+                <button id="eventBtn">Klik Saya!</button>
+                <p id="eventOutput">Belum ada event.</p>
+            </div>
+        </div>
+
+        <div class="dom-section">
+            <h2>4. Membuat dan Menghapus Elemen (Creating & Removing Elements)</h2>
+            <p>Menambahkan elemen baru ke DOM atau menghapus elemen yang sudah ada.</p>
+            <div class="example" id="create-remove-example">
+                <ul id="myList"></ul>
+                <button id="addElementBtn">Tambah Item</button>
+                <button id="removeElementBtn">Hapus Item Terakhir</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
